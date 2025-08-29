@@ -1,0 +1,9 @@
+For the Miracl-VC1 Dataset test there is a ipynb file ready to run inside the Miracl-VC1 folder
+
+For both the GRID and the LRS2 test, run in the following order the .py files (Remember to download the datasets and follow the instructions in the relative folders):
+1. change the paths in all the scripts based on your own local machine.
+2. run sovrascrivi.py
+3. run landmarks_extrapolation.py
+4. inside test.txt copy the preprocessing command and run it on the terminal
+5. run generate_second_test.py
+6. inside test.txt copy the testing command and run it on the terminal
