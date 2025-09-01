@@ -3,10 +3,10 @@ import shutil
 
 # --- Configuration ---
 # Path to the original GRID corpus
-grid_corpus_path = r"D:\Sapienza\NLP\GRID"
+grid_corpus_path = r"path_to_GRID"
 
 # Path where the new, reorganized structure will be created
-new_grid_path = r"D:\Sapienza\NLP\New_GRID"
+new_grid_path = r"path_to_new_GRIDNew_GRID"
 
 # --- Script Logic ---
 
@@ -45,4 +45,5 @@ for speaker_dir in speaker_dirs:
             shutil.copy2(source_file, dest_file)
 
 print("\nReorganization complete.")
+
 print(f"The new structure is located at: {new_grid_path}")
