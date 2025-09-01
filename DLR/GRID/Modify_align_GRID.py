@@ -2,7 +2,7 @@ import os
 
 # --- Configuration ---
 # Path to the root of the new, processed GRID structure
-new_grid_path = r"D:\Sapienza\NLP\New_GRID"
+new_grid_path = r"path_to_New_GRID"
 
 # --- Script Logic ---
 if not os.path.isdir(new_grid_path):
@@ -41,5 +41,6 @@ else:
                     print(f"Successfully rewrote: {full_align_path}")
                 except Exception as e:
                     print(f"Error writing to file {full_align_path}: {e}")
+
 
 print("\nAll .align files have been processed.")
