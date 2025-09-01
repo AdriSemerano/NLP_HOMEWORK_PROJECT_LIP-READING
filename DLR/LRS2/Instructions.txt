@@ -1,9 +1,0 @@
-cd Your_path_To_Project/deep_lip_reading
-pip install -r requirements.txt
-pip install av
-pip install opencv-python
-pip install ffmpeg
-pip install imageio
-
-To run the test
-python main.py --gpu_id 0 --lip_model_path deep_lip_reading/lrs2_lip_model --data_path path_to_dataset/LRS2/main --data_list media/lrs2_test_samples.txt 
