@@ -1,4 +1,6 @@
 download the zip folder containing the GRID dataset using this link https://drive.google.com/file/d/1EmfBcjFi02uXN4jMTNV_CcnDKLtYTOUg/view?usp=drive_link
 Follow the instructions in DLR/Instructions.txt
-To run the test use the path of the GRID dataset on your local machine in --data_path
+Run Modify_GRID to reorganize GRID in a structure compatible with the model
+Run Modify_align_GRID.py onto the new modified GRID so that the labels stored in .align files are all in CAPITAL form
+To run the test use the path of the newly modified GRID dataset on your local machine in --data_path
 python main.py --gpu_id 0 --lip_model_path deep_lip_reading/lrs2_lip_model --data_path path_to_dataset/GRID_colored --data_list media/lrs2_test_samples.txt 
