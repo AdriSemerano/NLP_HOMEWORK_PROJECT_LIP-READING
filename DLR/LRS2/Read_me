@@ -1,5 +1,6 @@
 Sign an agreement with BBC organization to test the model on the LRS2 Dataset: https://www.bbc.co.uk/rd/projects/lip-reading-datasets
-Download the zip file from this link and extract the content of the zip file on your local machine
+Download the zip file from this link https://drive.google.com/file/d/1H_zXxux0vtnyqXGPlQFchgd0j0N0xpFM/view?usp=drive_link 
+Extract the content of the zip file on your local machine
 Create an environment(highly recommended)
-Enter cd deep_lip_reading
+Follow the steps of Instructions,txt
 
