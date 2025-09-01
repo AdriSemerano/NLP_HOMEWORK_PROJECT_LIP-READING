@@ -4,12 +4,12 @@ import re
 
 # --- Configuration ---
 # Directory base of your current dataset structure
-source_base_dir = "D:\Download\phrases_with_labels_color"
+source_base_dir = "path_to_MIRACL-VC1"
 
 # Directory where the new, reorganized dataset will be created
-destination_base_dir = r"D:\Download\dataset_by_speaker_color"
+destination_base_dir = r"path_to_new_MIRACL-VC1"
 
-# Mappatura degli ID delle frasi alle frasi testuali (dal tuo screenshot)
+# Mappatura degli ID delle frasi alle frasi testuali
 phrase_mapping = {
     "01": "Stop navigation",
     "02": "Excuse me",
@@ -100,4 +100,5 @@ def restructure_dataset(source_dir, dest_dir, mapping):
 
 
 # Esegui la funzione
+
 restructure_dataset(source_base_dir, destination_base_dir, phrase_mapping)
