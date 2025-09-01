@@ -1,4 +1,4 @@
-cd Path_To_Project/deep_lip_reading
+cd Your_path_To_Project/deep_lip_reading
 pip install -r requirements.txt
 pip install av
 pip install opencv-python
