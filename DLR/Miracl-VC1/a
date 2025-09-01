@@ -1,1 +1,4 @@
-
+download the zip folder containing the GRID dataset using this link https://drive.google.com/file/d/187JQdiqoFGV8KKEhVP0lRwpLgdftETYJ/view?usp=drive_link
+Follow the instructions in DLR/Instructions.txt
+To run the test use the path of the GRID dataset on your local machine in --data_path
+python main.py --gpu_id 0 --lip_model_path deep_lip_reading/lrs2_lip_model --data_path path_to_dataset/GRID_colored --data_list media/lrs2_test_samples.txt 
