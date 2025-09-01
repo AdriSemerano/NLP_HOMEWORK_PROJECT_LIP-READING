@@ -1,2 +1,4 @@
 download the zip folder containing the GRID dataset
 Follow the instructions in Instructions.txt
+To run the test
+python main.py --gpu_id 0 --lip_model_path deep_lip_reading/lrs2_lip_model --data_path path_to_dataset/GRID_colored --data_list media/lrs2_test_samples.txt 
